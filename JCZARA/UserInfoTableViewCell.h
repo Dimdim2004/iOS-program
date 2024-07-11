@@ -12,5 +12,5 @@
 @property (nonatomic, strong) UIImageView *avatarImageView;
 @property (nonatomic, strong) UILabel *nameLabel;
 @property (nonatomic, strong) UILabel *wechatIDLabel;
-@property (nonatomic, strong) UIButton *avatarButton;
+
 @end

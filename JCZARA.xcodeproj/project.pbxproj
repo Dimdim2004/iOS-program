@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2148A23D2C3FC9D7008E464F /* BLASTIMO SANS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2148A23C2C3FC9D7008E464F /* BLASTIMO SANS.ttf */; };
+		2148A23F2C3FC9DD008E464F /* Blastimo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2148A23E2C3FC9DD008E464F /* Blastimo.ttf */; };
 		2193D9CE2C1FF36200A7EFDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D9CD2C1FF36200A7EFDF /* AppDelegate.m */; };
 		2193D9D12C1FF36200A7EFDF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D9D02C1FF36200A7EFDF /* SceneDelegate.m */; };
 		2193D9D72C1FF36200A7EFDF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2193D9D62C1FF36200A7EFDF /* Base */; };
@@ -40,6 +42,7 @@
 		2193DAC22C23377900A7EFDF /* 香水2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2193DAA82C23377900A7EFDF /* 香水2.jpg */; };
 		2193DAC32C23377900A7EFDF /* 香水3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2193DAA92C23377900A7EFDF /* 香水3.jpg */; };
 		2193DAC52C23377900A7EFDF /* 香水5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2193DAAB2C23377900A7EFDF /* 香水5.jpg */; };
+		21EEBEB42C3FE09F00902D56 /* 3f3a67cae53cf2c76dbb296608c0cae0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21EEBEB32C3FE09F00902D56 /* 3f3a67cae53cf2c76dbb296608c0cae0.jpg */; };
 		21EF39EE2C243F9B00AE0840 /* JCFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EF39ED2C243F9B00AE0840 /* JCFirst.m */; };
 		21EF39F12C245C1000AE0840 /* JCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EF39F02C245C1000AE0840 /* JCSecond.m */; };
 		21EF39F42C2693D900AE0840 /* JCFourth.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EF39F32C2693D900AE0840 /* JCFourth.m */; };
@@ -69,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2148A23C2C3FC9D7008E464F /* BLASTIMO SANS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BLASTIMO SANS.ttf"; sourceTree = "<group>"; };
+		2148A23E2C3FC9DD008E464F /* Blastimo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blastimo.ttf; sourceTree = "<group>"; };
 		2193D9C92C1FF36200A7EFDF /* JCZARA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCZARA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2193D9CC2C1FF36200A7EFDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2193D9CD2C1FF36200A7EFDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +117,7 @@
 		2193DAA82C23377900A7EFDF /* 香水2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香水2.jpg"; sourceTree = "<group>"; };
 		2193DAA92C23377900A7EFDF /* 香水3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香水3.jpg"; sourceTree = "<group>"; };
 		2193DAAB2C23377900A7EFDF /* 香水5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香水5.jpg"; sourceTree = "<group>"; };
+		21EEBEB32C3FE09F00902D56 /* 3f3a67cae53cf2c76dbb296608c0cae0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3f3a67cae53cf2c76dbb296608c0cae0.jpg; sourceTree = "<group>"; };
 		21EF39EC2C243F9B00AE0840 /* JCFirst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCFirst.h; sourceTree = "<group>"; };
 		21EF39ED2C243F9B00AE0840 /* JCFirst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCFirst.m; sourceTree = "<group>"; };
 		21EF39EF2C245C1000AE0840 /* JCSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCSecond.h; sourceTree = "<group>"; };
@@ -152,6 +158,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2148A2402C3FD4B5008E464F /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				21EF39EC2C243F9B00AE0840 /* JCFirst.h */,
+				21EF39ED2C243F9B00AE0840 /* JCFirst.m */,
+				21EF39EF2C245C1000AE0840 /* JCSecond.h */,
+				21EF39F02C245C1000AE0840 /* JCSecond.m */,
+				2193DA0E2C22F9B900A7EFDF /* JCThird.h */,
+				2193DA0F2C22F9B900A7EFDF /* JCThird.m */,
+				21EF39F22C2693D900AE0840 /* JCFourth.h */,
+				21EF39F32C2693D900AE0840 /* JCFourth.m */,
+				2193DA0B2C22F73800A7EFDF /* MainViewController.h */,
+				2193DA0C2C22F73800A7EFDF /* MainViewController.m */,
+				2193DA112C22F9CA00A7EFDF /* UserInfoTableViewCell.h */,
+				2193DA122C22F9CB00A7EFDF /* UserInfoTableViewCell.m */,
+				2193DA152C22F9D700A7EFDF /* MenuItemTableViewCell.h */,
+				2193DA142C22F9D700A7EFDF /* MenuItemTableViewCell.m */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		2148A2412C3FD4F5008E464F /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2193D9CC2C1FF36200A7EFDF /* AppDelegate.h */,
+				2193D9CD2C1FF36200A7EFDF /* AppDelegate.m */,
+				2193D9CF2C1FF36200A7EFDF /* SceneDelegate.h */,
+				2193D9D02C1FF36200A7EFDF /* SceneDelegate.m */,
+				21EF39F92C27347300AE0840 /* changeNameDelegate.h */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
 		2193D9C02C1FF36200A7EFDF = {
 			isa = PBXGroup;
 			children = (
@@ -176,27 +215,10 @@
 		2193D9CB2C1FF36200A7EFDF /* JCZARA */ = {
 			isa = PBXGroup;
 			children = (
-				2193D9CC2C1FF36200A7EFDF /* AppDelegate.h */,
-				2193D9CD2C1FF36200A7EFDF /* AppDelegate.m */,
-				2193D9CF2C1FF36200A7EFDF /* SceneDelegate.h */,
-				2193D9D02C1FF36200A7EFDF /* SceneDelegate.m */,
+				2148A2412C3FD4F5008E464F /* delegate */,
 				2193D9D52C1FF36200A7EFDF /* Main.storyboard */,
-				21EF39EF2C245C1000AE0840 /* JCSecond.h */,
-				21EF39F02C245C1000AE0840 /* JCSecond.m */,
-				21EF39F22C2693D900AE0840 /* JCFourth.h */,
-				21EF39F32C2693D900AE0840 /* JCFourth.m */,
-				2193DA0B2C22F73800A7EFDF /* MainViewController.h */,
-				2193DA0C2C22F73800A7EFDF /* MainViewController.m */,
-				2193DA112C22F9CA00A7EFDF /* UserInfoTableViewCell.h */,
-				2193DA122C22F9CB00A7EFDF /* UserInfoTableViewCell.m */,
-				2193DA0E2C22F9B900A7EFDF /* JCThird.h */,
-				2193DA0F2C22F9B900A7EFDF /* JCThird.m */,
-				21EF39F92C27347300AE0840 /* changeNameDelegate.h */,
-				2193DA152C22F9D700A7EFDF /* MenuItemTableViewCell.h */,
-				2193DA142C22F9D700A7EFDF /* MenuItemTableViewCell.m */,
+				2148A2402C3FD4B5008E464F /* viewcontroller */,
 				2193D9D82C1FF36400A7EFDF /* Assets.xcassets */,
-				21EF39EC2C243F9B00AE0840 /* JCFirst.h */,
-				21EF39ED2C243F9B00AE0840 /* JCFirst.m */,
 				2193D9DA2C1FF36400A7EFDF /* LaunchScreen.storyboard */,
 				2193D9DD2C1FF36400A7EFDF /* Info.plist */,
 				2193D9DE2C1FF36400A7EFDF /* main.m */,
@@ -250,6 +272,9 @@
 				2193DAA92C23377900A7EFDF /* 香水3.jpg */,
 				21EF39FA2C29B82100AE0840 /* 香水4.jpg */,
 				2193DAAB2C23377900A7EFDF /* 香水5.jpg */,
+				2148A23C2C3FC9D7008E464F /* BLASTIMO SANS.ttf */,
+				2148A23E2C3FC9DD008E464F /* Blastimo.ttf */,
+				21EEBEB32C3FE09F00902D56 /* 3f3a67cae53cf2c76dbb296608c0cae0.jpg */,
 			);
 			name = "素材";
 			path = "../../素材";
@@ -361,6 +386,7 @@
 				21EF39FD2C2ADB7100AE0840 /* 儿童2.jpg in Resources */,
 				21EF39FF2C2ADC0600AE0840 /* 儿童3.jpg in Resources */,
 				2193DAC32C23377900A7EFDF /* 香水3.jpg in Resources */,
+				2148A23F2C3FC9DD008E464F /* Blastimo.ttf in Resources */,
 				2193DAB32C23377900A7EFDF /* 家居2.jpg in Resources */,
 				2193D9D92C1FF36400A7EFDF /* Assets.xcassets in Resources */,
 				21EF39F62C2696C900AE0840 /* HOME1.jpg in Resources */,
@@ -375,6 +401,7 @@
 				21EF39FB2C29B82100AE0840 /* 香水4.jpg in Resources */,
 				21EF3A012C2ADC2400AE0840 /* 儿童4.jpg in Resources */,
 				21EF39F82C26B47300AE0840 /* 男士1.jpg in Resources */,
+				2148A23D2C3FC9D7008E464F /* BLASTIMO SANS.ttf in Resources */,
 				2193DAC22C23377900A7EFDF /* 香水2.jpg in Resources */,
 				2193DAC12C23377900A7EFDF /* 香水1.jpg in Resources */,
 				2193DAAD2C23377900A7EFDF /* 儿童1.jpg in Resources */,
@@ -384,6 +411,7 @@
 				2193DABD2C23377900A7EFDF /* 女士2.jpg in Resources */,
 				2193DABA2C23377900A7EFDF /* 男士4.jpg in Resources */,
 				2193DAB52C23377900A7EFDF /* 家居4.jpg in Resources */,
+				21EEBEB42C3FE09F00902D56 /* 3f3a67cae53cf2c76dbb296608c0cae0.jpg in Resources */,
 				2193DABB2C23377900A7EFDF /* 男士5.jpg in Resources */,
 				2193DAC52C23377900A7EFDF /* 香水5.jpg in Resources */,
 				2193DAB12C23377900A7EFDF /* 儿童5.jpg in Resources */,

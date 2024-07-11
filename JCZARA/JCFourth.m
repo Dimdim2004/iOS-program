@@ -86,11 +86,6 @@
     ]];
 }
 - (void)configureImages {
-    // 清除之前的图片视图
-    for (UIImageView *imageView in self.imageViews) {
-        [imageView removeFromSuperview];
-    }
-    [self.imageViews removeAllObjects];
     
     for (int i = 0; i < self.titles.count + 2; i++) {
         NSString *imageName;

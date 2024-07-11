@@ -60,8 +60,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
         UserInfoTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UserInfoTableViewCell" forIndexPath:indexPath];
-        [cell.avatarButton setImage:[UIImage systemImageNamed:@"person.circle"] forState:UIControlStateNormal];
-        cell.avatarButton.contentMode = UIViewContentModeScaleAspectFill;
+        cell.avatarImageView.image = [UIImage systemImageNamed:@"person.circle"];
         
         cell.nameLabel.text = @"用户名";
         cell.wechatIDLabel.text =[NSString stringWithFormat:@"账号：%@",self.userName];

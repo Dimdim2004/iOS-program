@@ -37,13 +37,13 @@
 }
 
 - (void)setupTopBar {
+
     self.topBarView = [[UIView alloc] initWithFrame:CGRectZero];
     self.topBarView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.topBarView];
-    
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectZero];
     titleLabel.text = @"ZARA";
-    titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:60];
+    titleLabel.font = [UIFont fontWithName:@"TimesNewRomanPS-BoldItalicMT" size:60];
     titleLabel.textAlignment = NSTextAlignmentLeft;
     titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
     [self.topBarView addSubview:titleLabel];
@@ -54,7 +54,6 @@
     categoryStackView.alignment = UIStackViewAlignmentCenter;
     categoryStackView.distribution = UIStackViewDistributionFillEqually;
     categoryStackView.translatesAutoresizingMaskIntoConstraints = NO;
-    
     for (int i = 0; i < self.categories.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
         [button setTitle:self.categories[i] forState:UIControlStateNormal];
@@ -64,7 +63,6 @@
         button.tintColor = [UIColor blackColor];
         [categoryStackView addArrangedSubview:button];
     }
-    
     [self.topBarView addSubview:categoryStackView];
     
     [NSLayoutConstraint activateConstraints:@[

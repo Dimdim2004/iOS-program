@@ -19,16 +19,12 @@
 
 - (void)setupViews {
     // 初始化 avatarButton
-    self.avatarButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.avatarButton.translatesAutoresizingMaskIntoConstraints = NO;
-    self.avatarButton.layer.cornerRadius = 5;
-    self.avatarButton.clipsToBounds = YES;
-    self.avatarButton.contentMode = UIViewContentModeScaleAspectFill; // 设置 contentMode
-
-    // 添加按钮点击事件
-    [self.avatarButton addTarget:self action:@selector(avatarButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [self.contentView addSubview:self.avatarButton];
-
+    self.avatarImageView = [[UIImageView alloc] init];
+    self.avatarImageView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.avatarImageView.layer.cornerRadius = 5;
+    self.avatarImageView.clipsToBounds = YES;
+        self.avatarImageView.contentMode = UIViewContentModeScaleAspectFill; // 设置 contentMode
+        [self.contentView addSubview:self.avatarImageView];
     // 其他视图初始化和布局约束
     self.nameLabel = [[UILabel alloc] init];
     self.nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
@@ -43,12 +39,12 @@
 
     // 设置约束
     [NSLayoutConstraint activateConstraints:@[
-        [self.avatarButton.leadingAnchor constraintEqualToAnchor:self.contentView.leadingAnchor constant:15],
-        [self.avatarButton.centerYAnchor constraintEqualToAnchor:self.contentView.centerYAnchor],
-        [self.avatarButton.widthAnchor constraintEqualToConstant:60],
-        [self.avatarButton.heightAnchor constraintEqualToConstant:60],
+        [self.avatarImageView.leadingAnchor constraintEqualToAnchor:self.contentView.leadingAnchor constant:15],
+        [self.avatarImageView.centerYAnchor constraintEqualToAnchor:self.contentView.centerYAnchor],
+        [self.avatarImageView.widthAnchor constraintEqualToConstant:60],
+        [self.avatarImageView.heightAnchor constraintEqualToConstant:60],
 
-        [self.nameLabel.leadingAnchor constraintEqualToAnchor:self.avatarButton.trailingAnchor constant:15],
+        [self.nameLabel.leadingAnchor constraintEqualToAnchor:self.avatarImageView.trailingAnchor constant:15],
         [self.nameLabel.topAnchor constraintEqualToAnchor:self.contentView.topAnchor constant:15],
 
         [self.wechatIDLabel.leadingAnchor constraintEqualToAnchor:self.nameLabel.leadingAnchor],
@@ -57,13 +53,5 @@
 }
 
 
-- (void)avatarButtonTapped:(UIButton *)sender {
-
-    NSLog(@"Avatar button tapped");
-    // Example: Show UIImagePickerController to pick an image
-    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
-    imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-    [self.window.rootViewController presentViewController:imagePicker animated:YES completion:nil];
-}
 
 @end
